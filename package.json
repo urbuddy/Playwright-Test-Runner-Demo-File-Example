@@ -1,0 +1,14 @@
+{
+  "name": "playwright-tutorials",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "HEADLESS_MODE": "HEADLESS=true RETRIES=2 npx playwright test",
+    "NON_HEADLESS_MODE": "HEADLESS=false RETRIES=2 npx playwright test",
+    "REPORT": "npx playwright show-report",
+    "CODEGEN": "npx playwright codegen"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.32.1"
+  }
+}
